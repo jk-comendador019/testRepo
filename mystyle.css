@@ -1,7 +1,36 @@
 body{
-  background-color: blue;
+  background-color: gray;
 }
 p{
-  color: white;
+  color: black;
   text-align: center;
+}
+.center {
+  margin: auto;
+  width: 100%;
+}
+.tblCenter{
+  margin: auto;
+}
+table{
+  border-spacing: 0;
+  border: 5px solid black;
+  table-layout: auto;
+  width: 50%;
+}
+th{
+  background-color: yellow;
+  height: 40px;
+  border: outset black;
+}
+td{
+  padding: 5px;
+  border-spacing: 3px;
+  text-align: center;
+  background-color: white;
+  border: inset gray;
+}
+td:hover{
+  background-color: white;
+  border: outset gray;
 }
